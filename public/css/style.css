@@ -20,6 +20,10 @@ body {
   background: #f4f4f4;
 }
 
+header{
+  width: 100%;
+}
+
 /* Navbar */
 .navbar {
   background: #333;
@@ -31,31 +35,10 @@ body {
   width: 100%;
 }
 
-.navbar ul {
-  list-style: none;
-  display: flex;
-}
-
-.navbar ul li {
-  margin-left: 1rem;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-.navbar a:hover {
-  color: var(--primary-color);
-}
-
 /* Showcase */
 .showcase {
-  height: 400px;
+  height: 300px;
   margin: 50px;
-  /* width: 100%; */
-  background: var(--primary-color);
   border-radius: 5px;
 }
 
@@ -78,8 +61,8 @@ body {
 .showcase form input,
 form select {
   font-size: 20px;
-  width: 500px;
-  max-width: 500px;
+  width: 300px;
+  max-width: 300px;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -87,8 +70,8 @@ form select {
 }
 
 form button {
-  font-size: 20px;
-  padding: 1rem 2rem;
+  font-size: 15px;
+  padding: 1rem 1rem;
   border: none;
   border-radius: 5px;
   background: #333;
@@ -120,33 +103,15 @@ img {
   margin-top: 1rem;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-  }
-  .showcase form input,
-  .showcase form select {
-  width: 100%;
-  margin-bottom: 15px;
-  font-size: 14px;
-  }
+footer{
+  text-align: center;
 }
-@media screen and (max-width: 480px) {
-  .showcase form input,
-  .showcase form select {
-  width: 100%;
-  margin-bottom: 15px;
-  font-size: 14px;
-  }
-  .navbar{
-    width: 100%;
-  }
-  .image {
-    width: 100%;
-  }
-  header{
-    width: 100%;
-  }
-  }
-  
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: var(--primary-color);
+}

@@ -6,23 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/spinner.css" />
+    <!-- <link href="/public/img/favicon.ico" rel="icon" type="image/x-icon" /> -->
+    <link href="data: image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAPf/ADszKwAAOqYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIgAAAAAAIiIiAAAAAiIiIiIiIAACIiIiIiIgAAIhEREREiAAAiEiIiISIAACIRERERIgAAIiIiIiIiAAAiIiIiIiIAACIiIiIiIgARIhESIREiEREiExIhMSIRESIREiERIhERIiIiIiIiEREiIiIiIiIREQAAAAAAABH4HwAA+B8AAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//AAA" rel="icon" type="image/x-icon" />
     <script src="js/main.js" defer></script>
-    <title>OpenAI Image Genrator</title>
+    <title>OpenAI Image Generator</title>
   </head>
   <body>
     <header>
       <div class="navbar">
         <div class="logo">
-          <h2>OpenAI Image Genrator</h2>
-        </div>
-        <div class="nav-links">
-          <ul>
-            <li>
-              <a href="https://beta.openai.com/docs" target="_blank"
-                >OpenAI API Docs</a
-              >
-            </li>
-          </ul>
+          <h2>OpenAI Image Generator</h2>
         </div>
       </div>
     </header>
@@ -37,8 +30,8 @@
           <!-- size -->
           <div class="form-control">
             <select name="size" id="size">
-              <option value="small">Small</option>
-              <option value="medium" selected>Medium</option>
+              <option value="small" selected>Small</option>
+              <option value="medium">Medium</option>
               <option value="large">Large</option>
             </select>
           </div>
@@ -53,6 +46,12 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <div>
+        <a href="https://beta.openai.com/docs" target="_blank">OpenAI API Docs</a>
+      </div>
+    </footer>
 
     <div class="spinner"></div>
   </body>
